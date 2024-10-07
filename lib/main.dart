@@ -16,6 +16,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'PayPal Payment',
       theme: ThemeData(
+        appBarTheme: const AppBarTheme(
+          color: Colors.blueAccent
+        ),
         primarySwatch: Colors.blue,
       ),
       home: const PaymentScreen(),
